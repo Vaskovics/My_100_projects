@@ -76,7 +76,7 @@ def check_price(drink):
 def check_enough_money(price, value):
     if price > value:
         return False
-    elif price < value:
+    elif price <= value:
         return True
 
 
